@@ -1,0 +1,2 @@
+# CSS `calc()` Function Errors
+This repository demonstrates common and uncommon errors encountered while using the `calc()` function in CSS.  The `bug.css` file contains code illustrating incorrect spacing and nested parentheses problems. The `bugSolution.css` file shows the corrected code.  Understanding proper spacing and parentheses nesting is crucial for ensuring accurate calculations within your stylesheets.
