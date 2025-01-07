@@ -1,0 +1,9 @@
+/* Corrected CSS using calc() */
+#element {
+  width: calc(20px + 10%); /* Correct spacing */
+  height: calc(50% - calc(10px + 5%)); /* Correct nesting and spacing */
+}
+/* Avoid this:
+width: calc(20px+10%); /* Incorrect spacing */
+height: calc(50% - calc(10px + 5%)); /* Missing parentheses in inner calc() could cause errors */
+*/
